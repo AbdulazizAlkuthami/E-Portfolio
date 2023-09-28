@@ -58,3 +58,6 @@ h4 {
 #education div:hover, #certifications div:hover, #projects div:hover {
     background-color: #f5f5f5;
 }
+body {
+    background-color: #009B77; /* Marrs Green */
+}
