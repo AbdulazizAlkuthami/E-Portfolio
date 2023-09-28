@@ -11,3 +11,50 @@ body {
   h1, h2 {
     color: #333;
   }
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+header, section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h4 {
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Education, Certifications, and Projects Styles */
+
+#education div, #certifications div, #projects div {
+    border-left: 3px solid #007bff; /* Change this color if you want */
+    padding: 10px 0 10px 20px;
+    margin: 20px 0;
+}
+
+#education div:first-child, #certifications div:first-child, #projects div:first-child {
+    margin-top: 0;
+}
+
+#education div:last-child, #certifications div:last-child, #projects div:last-child {
+    margin-bottom: 0;
+}
+
+/* Hover Effect */
+#education div:hover, #certifications div:hover, #projects div:hover {
+    background-color: #f5f5f5;
+}
