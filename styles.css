@@ -59,5 +59,5 @@ h4 {
 .profile-photo {
     width: 150px;  /* Adjust the size as needed */
     height: 150px; /* Adjust the size as needed */
-    object-fit: cover; /* Ensures the image covers the area without stretching */
+    /*object-fit: cover; /* Ensures the image covers the area without stretching */
   }
